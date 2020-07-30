@@ -26,7 +26,8 @@ MainWidget::~MainWidget(){
 
 }
 void MainWidget::onStoreChanged(QJsonObject diffObj){
-    qDebug()<<"void MainWidget::onStoreChanged(QJsonObject diffObj)"<<diffObj;
+    qDebug()<<"void MainWidget::onStoreChanged(QJsonObject diffObj)";
+    qDebug()<<"Diff Object"<<diffObj;
     QString key = diffObj.keys().at(0);
     QJsonValue value = diffObj.value(key);
     qDebug()<<key<<value;
