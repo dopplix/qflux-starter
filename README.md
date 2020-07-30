@@ -12,10 +12,14 @@ https://github.com/dopplix/QFlux
 - On Action Button Clicked
 
 ```
-void Dispatcher::dispatch(QString actionType, QJsonObject payload) "DEFAULT_ACTION" QJsonObject({"TEST_KEY1":"TEST_VALUE1","TEST_KEY2":"TEST_VALUE2"})
-void MainWidget::onStoreChanged(QJsonObject diffObj) QJsonObject({"TEST_KEY1":"TEST_VALUE1"})
+void Dispatcher::dispatch(QString actionType, QJsonObject payload)
+Action Type "DEFAULT_ACTION"
+Payload QJsonObject({"TEST_KEY1":"TEST_VALUE1","TEST_KEY2":"TEST_VALUE2"})
+void MainWidget::onStoreChanged(QJsonObject diffObj)
+Diff Object QJsonObject({"TEST_KEY1":"TEST_VALUE1"})
 "TEST_KEY1" QJsonValue(string, "TEST_VALUE1")
-void MainWidget::onStoreChanged(QJsonObject diffObj) QJsonObject({"TEST_KEY2":"TEST_VALUE2"})
+void MainWidget::onStoreChanged(QJsonObject diffObj)
+Diff Object QJsonObject({"TEST_KEY2":"TEST_VALUE2"})
 "TEST_KEY2" QJsonValue(string, "TEST_VALUE2")
 ```
 
