@@ -34,4 +34,6 @@ State QJsonObject({"TEST_KEY1":"TEST_VALUE1","TEST_KEY2":"TEST_VALUE2"})
 git clone https://github.com/dopplix/qflux-starter.git
 cd qflux-starter
 git clone https://github.com/dopplix/QFlux.git qflux
+cd qflux
+git clone https://github.com/dopplix/QJsonObjectMutex.git store
 ```
