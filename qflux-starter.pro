@@ -21,7 +21,7 @@ SOURCES += \
     mainwidget.cpp \
     qflux/connectedwidget.cpp \
     qflux/dispatchercore.cpp \
-    qflux/qjsonobjectmutex.cpp
+    qflux/store/qjsonobjectmutex.cpp
 
 HEADERS += \
     actionTypes.h \
@@ -29,7 +29,7 @@ HEADERS += \
     mainwidget.h \
     qflux/connectedwidget.h \
     qflux/dispatchercore.h \
-    qflux/qjsonobjectmutex.h
+    qflux/store/qjsonobjectmutex.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
