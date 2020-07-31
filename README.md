@@ -2,8 +2,15 @@
 
 Qt project starter using QFlux
 
-# QFlux
-https://github.com/dopplix/QFlux
+# Install
+
+```
+git clone https://github.com/dopplix/qflux-starter.git
+cd qflux-starter
+git clone https://github.com/dopplix/QFlux.git qflux
+cd qflux
+git clone https://github.com/dopplix/QJsonObjectMutex.git store
+```
 
 # Screenshot
 
@@ -28,12 +35,5 @@ Diff Object QJsonObject({"TEST_KEY2":"TEST_VALUE2"})
 State QJsonObject({"TEST_KEY1":"TEST_VALUE1","TEST_KEY2":"TEST_VALUE2"})
 ```
 
-# Install
-
-```
-git clone https://github.com/dopplix/qflux-starter.git
-cd qflux-starter
-git clone https://github.com/dopplix/QFlux.git qflux
-cd qflux
-git clone https://github.com/dopplix/QJsonObjectMutex.git store
-```
+# QFlux
+https://github.com/dopplix/QFlux
